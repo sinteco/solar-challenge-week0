@@ -1,0 +1,84 @@
+Benin EDA Report
+
+--- Summary statistics (numeric) ---
+
+                  count        mean         std    min    25%    50%    75%     max
+GHI            525600.0  240.559452  331.131327  -12.9   -2.0    1.8  483.4  1413.0
+DNI            525600.0  167.187516  261.710501   -7.8   -0.5   -0.1  314.2   952.3
+DHI            525600.0  115.358961  158.691074  -12.6   -2.1    1.6  216.3   759.2
+ModA           525600.0  236.589496  326.894859    0.0    0.0    4.5  463.7  1342.3
+ModB           525600.0  228.883576  316.536515    0.0    0.0    4.3  447.9  1342.3
+Tamb           525600.0   28.179683    5.924297   11.0   24.2   28.0   32.3    43.8
+RH             525600.0   54.487969   28.073069    2.1   28.8   55.1   80.1   100.0
+WS             525600.0    2.121113    1.603466    0.0    1.0    1.9    3.1    19.5
+WSgust         525600.0    2.809195    2.029120    0.0    1.3    2.6    4.1    26.6
+WSstdev        525600.0    0.473390    0.273395    0.0    0.4    0.5    0.6     4.2
+WD             525600.0  153.435172  102.332842    0.0   59.0  181.0  235.1   360.0
+WDstdev        525600.0    8.582407    6.385864    0.0    3.7    8.6   12.3    99.4
+BP             525600.0  994.197199    2.474993  985.0  993.0  994.0  996.0  1003.0
+Cleaning       525600.0    0.000923    0.030363    0.0    0.0    0.0    0.0     1.0
+Precipitation  525600.0    0.001905    0.037115    0.0    0.0    0.0    0.0     2.5
+TModA          525600.0   35.246026   14.807258    9.0   24.2   30.0   46.9    81.0
+TModB          525600.0   32.471736   12.348743    8.1   23.6   28.9   41.5    72.5
+Comments            0.0         NaN         NaN    NaN    NaN    NaN    NaN     NaN
+
+--- Missing value report (count and pct) ---
+
+               missing_count  missing_pct
+Timestamp                  0          0.0
+GHI                        0          0.0
+DNI                        0          0.0
+DHI                        0          0.0
+ModA                       0          0.0
+ModB                       0          0.0
+Tamb                       0          0.0
+RH                         0          0.0
+WS                         0          0.0
+WSgust                     0          0.0
+WSstdev                    0          0.0
+WD                         0          0.0
+WDstdev                    0          0.0
+BP                         0          0.0
+Cleaning                   0          0.0
+Precipitation              0          0.0
+TModA                      0          0.0
+TModB                      0          0.0
+Comments              525600        100.0
+
+--- Columns with >5% missing ---
+
+          missing_count  missing_pct
+Comments         525600        100.0
+
+--- Outlier summary (Z-score |z|>3) ---
+
+GHI: 89 flagged
+
+DNI: 0 flagged
+
+DHI: 3738 flagged
+
+ModA: 27 flagged
+
+ModB: 63 flagged
+
+WS: 3109 flagged
+
+WSgust: 3500 flagged
+
+
+--- Median imputations applied ---
+
+GHI: median=1.8
+
+DNI: median=-0.1
+
+DHI: median=1.6
+
+ModA: median=4.5
+
+ModB: median=4.3
+
+WS: median=1.9
+
+WSgust: median=2.6
