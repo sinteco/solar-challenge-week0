@@ -1,0 +1,84 @@
+SierraLeone EDA Report
+
+--- Summary statistics (numeric) ---
+
+                  count        mean         std    min    25%     50%     75%     max
+GHI            525600.0  201.957515  298.495150  -19.5   -2.8     0.3   362.4  1499.0
+DNI            525600.0  116.376337  218.652659   -7.8   -0.3    -0.1   107.0   946.0
+DHI            525600.0  113.720571  158.946032  -17.9   -3.8    -0.1   224.7   892.0
+ModA           525600.0  206.643095  300.896893    0.0    0.0     3.6   359.5  1507.0
+ModB           525600.0  198.114691  288.889073    0.0    0.0     3.4   345.4  1473.0
+Tamb           525600.0   26.319394    4.398605   12.3   23.1    25.3    29.4    39.9
+RH             525600.0   79.448857   20.520775    9.9   68.7    85.4    96.7   100.0
+WS             525600.0    1.146113    1.239248    0.0    0.0     0.8     2.0    19.2
+WSgust         525600.0    1.691606    1.617053    0.0    0.0     1.6     2.6    23.9
+WSstdev        525600.0    0.363823    0.295000    0.0    0.0     0.4     0.6     4.1
+WD             525600.0  133.044668  114.284792    0.0    0.0   161.5   234.1   360.0
+WDstdev        525600.0    7.172220    7.535093    0.0    0.0     6.2    12.0    98.4
+BP             525600.0  999.876469    2.104419  993.0  999.0  1000.0  1001.0  1006.0
+Cleaning       525600.0    0.000967    0.031074    0.0    0.0     0.0     0.0     1.0
+Precipitation  525600.0    0.004806    0.047556    0.0    0.0     0.0     0.0     2.4
+TModA          525600.0   32.504263   12.434899   10.7   23.5    26.6    40.9    72.8
+TModB          525600.0   32.593091   12.009161   11.1   23.8    26.9    41.3    70.4
+Comments            0.0         NaN         NaN    NaN    NaN     NaN     NaN     NaN
+
+--- Missing value report (count and pct) ---
+
+               missing_count  missing_pct
+Timestamp                  0          0.0
+GHI                        0          0.0
+DNI                        0          0.0
+DHI                        0          0.0
+ModA                       0          0.0
+ModB                       0          0.0
+Tamb                       0          0.0
+RH                         0          0.0
+WS                         0          0.0
+WSgust                     0          0.0
+WSstdev                    0          0.0
+WD                         0          0.0
+WDstdev                    0          0.0
+BP                         0          0.0
+Cleaning                   0          0.0
+Precipitation              0          0.0
+TModA                      0          0.0
+TModB                      0          0.0
+Comments              525600        100.0
+
+--- Columns with >5% missing ---
+
+          missing_count  missing_pct
+Comments         525600        100.0
+
+--- Outlier summary (Z-score |z|>3) ---
+
+GHI: 2477 flagged
+
+DNI: 7586 flagged
+
+DHI: 2986 flagged
+
+ModA: 1604 flagged
+
+ModB: 2041 flagged
+
+WS: 3967 flagged
+
+WSgust: 3665 flagged
+
+
+--- Median imputations applied ---
+
+GHI: median=0.3
+
+DNI: median=-0.1
+
+DHI: median=-0.1
+
+ModA: median=3.6
+
+ModB: median=3.4
+
+WS: median=0.8
+
+WSgust: median=1.6
