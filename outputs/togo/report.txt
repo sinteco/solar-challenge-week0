@@ -1,0 +1,84 @@
+Togo EDA Report
+
+--- Summary statistics (numeric) ---
+
+                  count        mean         std    min    25%    50%      75%     max
+GHI            525600.0  230.555040  322.532347  -12.7   -2.2    2.1  442.400  1424.0
+DNI            525600.0  151.258469  250.956962    0.0    0.0    0.0  246.400  1004.5
+DHI            525600.0  116.444352  156.520714    0.0    0.0    2.5  215.700   805.7
+ModA           525600.0  226.144375  317.346938    0.0    0.0    4.4  422.525  1380.0
+ModB           525600.0  219.568588  307.932510    0.0    0.0    4.3  411.000  1367.0
+Tamb           525600.0   27.751788    4.758023   14.9   24.2   27.2   31.100    41.4
+RH             525600.0   55.013160   28.778732    3.3   26.5   59.3   80.800    99.8
+WS             525600.0    2.368093    1.462668    0.0    1.4    2.2    3.200    16.1
+WSgust         525600.0    3.229490    1.882565    0.0    1.9    2.9    4.400    23.1
+WSstdev        525600.0    0.557740    0.268923    0.0    0.4    0.5    0.700     4.7
+WD             525600.0  161.741845   91.877217    0.0   74.8  199.1  233.500   360.0
+WDstdev        525600.0   10.559568    5.915490    0.0    6.9   10.8   14.100    86.9
+BP             525600.0  975.915242    2.153977  968.0  975.0  976.0  977.000   983.0
+Cleaning       525600.0    0.000535    0.023116    0.0    0.0    0.0    0.000     1.0
+Precipitation  525600.0    0.001382    0.026350    0.0    0.0    0.0    0.000     2.3
+TModA          525600.0   32.444403   10.998334   13.1   23.9   28.4   40.600    70.4
+TModB          525600.0   33.543330   12.769277   13.1   23.6   28.4   43.000    94.6
+Comments            0.0         NaN         NaN    NaN    NaN    NaN      NaN     NaN
+
+--- Missing value report (count and pct) ---
+
+               missing_count  missing_pct
+Timestamp                  0          0.0
+GHI                        0          0.0
+DNI                        0          0.0
+DHI                        0          0.0
+ModA                       0          0.0
+ModB                       0          0.0
+Tamb                       0          0.0
+RH                         0          0.0
+WS                         0          0.0
+WSgust                     0          0.0
+WSstdev                    0          0.0
+WD                         0          0.0
+WDstdev                    0          0.0
+BP                         0          0.0
+Cleaning                   0          0.0
+Precipitation              0          0.0
+TModA                      0          0.0
+TModB                      0          0.0
+Comments              525600        100.0
+
+--- Columns with >5% missing ---
+
+          missing_count  missing_pct
+Comments         525600        100.0
+
+--- Outlier summary (Z-score |z|>3) ---
+
+GHI: 305 flagged
+
+DNI: 1062 flagged
+
+DHI: 3415 flagged
+
+ModA: 137 flagged
+
+ModB: 206 flagged
+
+WS: 3510 flagged
+
+WSgust: 3915 flagged
+
+
+--- Median imputations applied ---
+
+GHI: median=2.1
+
+DNI: median=0.0
+
+DHI: median=2.5
+
+ModA: median=4.4
+
+ModB: median=4.3
+
+WS: median=2.2
+
+WSgust: median=2.9
